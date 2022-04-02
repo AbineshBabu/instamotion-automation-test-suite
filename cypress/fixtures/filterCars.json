@@ -1,0 +1,29 @@
+{
+    "brand":"Audi",
+    "model":"A1",
+    "VehicleType":"Kleinwagen",
+    "status":"Gebrauchtwagen",
+    "rate":{
+        "from":"10 €",
+        "until":"200 €"
+    },
+    "registration":{
+        "from":"2017",
+        "until":"2021"
+    },
+    "kilometer":{
+        "from":"5.000 km",
+        "until":"45.000 km"
+    },
+    "fuel":"Benzin",
+    "performance":{
+        "from":"20 PS",
+        "until":"160 PS"
+    },
+    "circuit":"Automatik",
+    "doors":"Beliebig",
+    "seat":"5",
+    "emissionClass":"Euro 6",
+    "exteriorColour":"Blau",
+    "interiorColour":"Schwarz"
+}

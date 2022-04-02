@@ -1,0 +1,23 @@
+{
+  "name": "instamotion-retail-gmbh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --spec './cypress/integration/test/*spec.js' --headless --browser chrome",
+    "test-favouriteCars": "npx cypress run --spec './cypress/integration/test/favouriteCars.spec.js' --headless --browser chrome",
+    "test-filterCars": "npx cypress run --spec './cypress/integration/test/filterCars.spec.js' --headless --browser chrome",
+    "test-onlineTransfer": "npx cypress run --spec './cypress/integration/test/onlineTransfer.spec.js' --headless --browser chrome",
+    "cypress-open": "npx cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.5.3",
+    "cypress-xpath": "^1.6.2"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.0.0"
+  }
+}

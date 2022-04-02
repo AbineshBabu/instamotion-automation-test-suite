@@ -1,0 +1,9 @@
+# Test/cypress/report/
+# Test/node_modules/
+# Test/cypress/screenshots/
+# Test/cypress/videos/
+
+node_modules
+cypress/report/
+cypress/screenshots/
+cypress/videos/

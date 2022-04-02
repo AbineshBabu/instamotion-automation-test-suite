@@ -1,0 +1,20 @@
+{
+  "search": {
+    "brand": "Audi",
+    "model":"A1"
+  },
+  "filter": {
+    "startPrice":"10",
+    "endPrice":"100"
+  },
+  "form": {
+    "phoneNumber":"7689547321",
+    "firstname":"test",
+    "surname":"user",
+    "email":"testuser@yopmail.com",
+    "tradeCar":2,
+    "howYouKnowUs":"Facebook",
+    "modeOfCommunication":"email"
+  },
+  "successMessage":"Deine Nachricht wurde erfolgreich gesendet"
+}

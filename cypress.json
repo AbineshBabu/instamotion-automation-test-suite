@@ -1,0 +1,16 @@
+{
+    "baseUrl": "https://www.instamotion.com",
+    "watchForFileChanges":false,
+    "hideXHR": true,
+    "screenshotOnRunFailure":true,
+    "testFiles": "**/*.spec.js",
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+    "reportDir": "cypress/report",
+    "charts": true,
+    "timestamp":"longDate",
+    "reportPageTitle": "Instamotion Test Execution Report",
+    "embeddedScreenshots":true,
+    "saveAllAttempts":false
+  }
+}
