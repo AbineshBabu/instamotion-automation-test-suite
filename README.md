@@ -12,8 +12,6 @@ A Cypress Automation Test Framework with Mocha to validate the critical business
 * How to run the tests
   * Test execution
   
-* IDE used
-  
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) v14.15.5 - should be installed in the machine.
@@ -52,7 +50,7 @@ A Cypress Automation Test Framework with Mocha to validate the critical business
  - `npm run test-filterCars` - To execute the test cases specific to filtering functionality.
  -  `npm run test-onlineTransfer` - To execute the test cases specific to online transfer functionality.
  
-### Generate HTML report with screenshots
+### HTML report with screenshots
 
    - HTML Report will be generated inside the following folder,
    `cypress/report/index.html_DATE_OF_EXECUTION.html`
