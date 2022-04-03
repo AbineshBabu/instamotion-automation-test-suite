@@ -3,6 +3,7 @@
     "watchForFileChanges":false,
     "hideXHR": true,
     "screenshotOnRunFailure":true,
+    "retries": 1,
     "testFiles": "**/*.spec.js",
     "reporter": "cypress-mochawesome-reporter",
     "reporterOptions": {
@@ -10,7 +11,6 @@
     "charts": true,
     "timestamp":"longDate",
     "reportPageTitle": "Instamotion Test Execution Report",
-    "embeddedScreenshots":true,
-    "saveAllAttempts":false
+    "embeddedScreenshots":true
   }
 }
